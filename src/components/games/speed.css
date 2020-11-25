@@ -1,0 +1,14 @@
+.speed_container h1 {
+    margin: 150px 20px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .speed_container h1 {
+        margin: 100px 20px;
+    }
+}

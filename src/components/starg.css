@@ -1,0 +1,17 @@
+.starg_logo {
+    /*position: relative;*/
+    color: deeppink;
+    text-shadow: 0 0 20px white;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Fredoka One', cursive;
+    font-weight: bold;
+    cursor: default;
+    animation: logo 1.5s infinite linear;
+}
+
+@keyframes logo {
+    0%{text-shadow: 0 0 20px white}
+    10%{text-shadow: 0 0 15px #0043d7}
+    100%{text-shadow: 0 0 10px white}
+}
