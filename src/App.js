@@ -4,13 +4,13 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom'
 import Starg from "./components/starg";
 import Home from "./components/home";
 import Games from "./components/games";
-import Snake from "./components/games/snake";
+import Snake from "./components/games/snake/snake";
 import Bounce from "./components/games/bounce";
 import Speed from "./components/games/speed";
 
 function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/starg">
             <div className="App">
                 <Starg/>
                 <Switch>

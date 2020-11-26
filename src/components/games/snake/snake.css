@@ -1,0 +1,143 @@
+.snake_area {
+    position: relative;
+    margin: 10px auto;
+    width: 500px;
+    height: 500px;
+    border: 2px solid white;
+}
+.snake_dot {
+    position: absolute;
+    width: 5%;
+    height: 5%;
+    background-color: #0043d7;
+    border: 1px solid white;
+    z-index: 2;
+}
+
+.snake_food {
+    position: absolute;
+    width: 5%;
+    height: 5%;
+    background-color: red;
+    border: 1px solid white;
+    z-index: 1;
+}
+.score {
+    position: absolute;
+    right: 450px;
+    top: 20px;
+    font-size: 30px;
+}
+.buttons {
+    display: none;
+}
+
+
+
+
+
+@media screen and (max-width: 700px) {
+    .snake_area {
+        margin: 0 auto;
+        width: 265px;
+        height: 265px;
+    }
+    .score {
+        right: 30px;
+        top: 10px;
+    }
+    .buttons {
+        display: block;
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        margin: 10px auto;
+        right: 15px;
+        top: 100px;
+    }
+    .arrow_left, .arrow_up, .arrow_right, .arrow_down {
+        position: absolute;
+        font-size: 35px;
+        border: 1px solid white;
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+        background: blue;
+        padding: 1px 0;
+    }
+    .arrow_left {
+        top: 39px;
+        left: 0;
+    }
+    .arrow_up {
+        top: 0;
+        left: 39px;
+    }
+    .arrow_right {
+        top: 39px;
+        right: 0;
+    }
+    .arrow_down {
+        left: 39px;
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .buttons {
+        right: 50%;
+        transform: translateX(50%);
+        top: 320px
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .snake_area {
+        margin: 0 auto;
+        width: 310px;
+        height: 310px;
+        margin-top: 30px;
+    }
+    .score {
+        right: 0;
+        top: 50px;
+        left: 0;
+        font-size: 22px;
+    }
+    .buttons {
+        display: block;
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        margin: 10px auto;
+        right: 50%;
+        transform: translateX(50%);
+        top: 390px
+    }
+    /*.arrow_left, .arrow_up, .arrow_right, .arrow_down {*/
+    /*    position: absolute;*/
+    /*    font-size: 35px;*/
+    /*    border: 1px solid white;*/
+    /*    width: 40px;*/
+    /*    height: 40px;*/
+    /*    border-radius: 10px;*/
+    /*    background: blue;*/
+    /*}*/
+    /*.arrow_left {*/
+    /*    top: 39px;*/
+    /*    left: 0;*/
+    /*}*/
+    /*.arrow_up {*/
+    /*    top: 0;*/
+    /*    left: 39px;*/
+    /*}*/
+    /*.arrow_right {*/
+    /*    top: 39px;*/
+    /*    right: 0;*/
+    /*}*/
+    /*.arrow_down {*/
+    /*    left: 39px;*/
+    /*    bottom: 0;*/
+    /*}*/
+}
+

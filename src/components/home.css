@@ -31,7 +31,7 @@
     100%{text-shadow: 0 0 10px #1f7aff}
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .home_container {
         margin-top: 40px;
         margin-bottom: 30px;

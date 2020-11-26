@@ -19,7 +19,7 @@
     padding: 20px 40px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .nav h2 {
         margin: 14px 15px;
         font-size: 30px;
