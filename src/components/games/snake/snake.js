@@ -25,13 +25,14 @@ const initialState = {
 class Snake extends Component {
     state = initialState;
 
+
+
+
+
     componentDidMount() {
-        setInterval(this.moveSnake, this.state.speed);
-        document.onkeydown = this.onKeyDown;
-        // document.getElementById('up').addEventListener("click", this.up);
-        // document.getElementById('down').addEventListener("click", this.down);
-        // document.getElementById('right').addEventListener("click", this.right);
-        // document.getElementById('left').addEventListener("click", this.left);
+            setInterval(this.moveSnake, this.state.speed);
+            document.onkeydown = this.onKeyDown;
+
     }
 
     componentDidUpdate() {
@@ -127,15 +128,19 @@ class Snake extends Component {
     increaseSpeed() {
         if (this.state.speed > 10) {
             this.setState({
-                spead: this.state.speed - 10
+                speed: this.state.speed - 10
             })
         }
     }
 
+
+
     onGameOver() {
-        alert(`Game Over. Our score ${this.state.snakeDots.length}`)
+        alert(`GAME OVER. Your score: ${this.state.snakeDots.length - 2}`)
         this.setState(initialState)
+
     }
+
 
     up(e) {
         e = e || window.event;
