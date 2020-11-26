@@ -39,8 +39,8 @@
 @media screen and (max-width: 700px) {
     .snake_area {
         margin: 0 auto;
-        width: 265px;
-        height: 265px;
+        width: 230px;
+        height: 230px;
     }
     .score {
         right: 30px;
@@ -49,36 +49,42 @@
     .buttons {
         display: block;
         position: absolute;
-        width: 120px;
-        height: 120px;
+        width: 140px;
+        height: 140px;
         margin: 10px auto;
-        right: 15px;
-        top: 100px;
+        right: 10px;
+        top: 80px;
     }
     .arrow_left, .arrow_up, .arrow_right, .arrow_down {
         position: absolute;
-        font-size: 35px;
+        font-size: 42px;
         border: 1px solid white;
-        width: 40px;
-        height: 40px;
         border-radius: 10px;
         background: blue;
         padding: 1px 0;
     }
     .arrow_left {
-        top: 39px;
+        width: 40px;
+        height: 42px;
+        top: 47px;
         left: 0;
     }
     .arrow_up {
+        width: 42px;
+        height: 40px;
         top: 0;
-        left: 39px;
+        left: 48px;
     }
     .arrow_right {
-        top: 39px;
+        width: 40px;
+        height: 42px;
+        top: 47px;
         right: 0;
     }
     .arrow_down {
-        left: 39px;
+        width: 42px;
+        height: 40px;
+        left: 48px;
         bottom: 0;
     }
 }
@@ -107,8 +113,8 @@
     .buttons {
         display: block;
         position: absolute;
-        width: 120px;
-        height: 120px;
+        width: 140px;
+        height: 140px;
         margin: 10px auto;
         right: 50%;
         transform: translateX(50%);
