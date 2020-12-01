@@ -15,7 +15,7 @@ const Games = () => {
                         <NavLink to='/snake' className='nav_link'>Snake</NavLink>
                     </li>
                     <li className="nav_item">
-                        <NavLink to='/bounce' className='nav_link'>Bounce</NavLink>
+                        <NavLink to='/coh' className='nav_link'>Cold Or Hot</NavLink>
                     </li>
                     <li className="nav_item">
                         <NavLink to='/speed' className='nav_link'>Speed</NavLink>

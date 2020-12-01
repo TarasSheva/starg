@@ -5,7 +5,7 @@ import Starg from "./components/starg";
 import Home from "./components/home";
 import Games from "./components/games";
 import Snake from "./components/games/snake/snake";
-import Bounce from "./components/games/bounce";
+import CoH from "./components/games/coldOrHot/coh";
 import Speed from "./components/games/speed";
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
                     <Route path={'/'} exact component={Home}/>
                     <Route path={'/games'}  component={Games}/>
                     <Route path={'/snake'}  component={Snake}/>
-                    <Route path={'/bounce'}  component={Bounce}/>
+                    <Route path={'/coh'}  component={CoH}/>
                     <Route path={'/speed'}  component={Speed}/>
                 </Switch>
             </div>

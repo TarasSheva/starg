@@ -114,7 +114,12 @@ class Snake extends Component {
             })
             this.enlargeSnake();
             this.increaseSpeed();
+            this.playAudio();
         }
+    }
+    playAudio() {
+        const audio = new Audio('audio/score.mp3')
+        audio.play()
     }
 
     enlargeSnake() {

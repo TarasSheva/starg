@@ -1,0 +1,145 @@
+.coh_container h1 {
+    margin: 150px 20px;
+}
+.coh_title {
+    font-size: 40px;
+}
+.coh_span_1 {
+    color: #0043d7;
+}
+.coh_span_2 {
+    color: red;
+}
+
+.coh_form {
+    display: inline-grid;
+}
+.coh_form input {
+    width: 200px;
+    height: 45px;
+    background: white;
+    margin: 10px auto;
+    border: 2px solid #3F51B5;
+    border-radius: 5px;
+    padding: 0 10px;
+    appearance: none;
+    font-size: 24px;
+    text-align: center;
+}
+.coh_form input[type="number"]::-webkit-outer-spin-button,
+.coh_form input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.slovo {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.coh_form button {
+    width: 170px;
+    height: 40px;
+    background: #009606;
+    margin: 10px auto;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 21px;
+    font-weight: 800;
+    color: white;
+}
+.coh_progress {
+    margin-top: 50px;
+}
+.coh_progress_history {
+    margin: 10px auto;
+    max-width: 500px;
+    display: flex;
+    border: 2px solid white;
+    border-radius: 4px;
+    min-height: 30px;
+    padding: 5px;
+    list-style: none;
+    color: #0043d7;
+    font-size: 24px;
+}
+.coh_progress_history li {
+    margin-right: 8px;
+    padding: 2px;
+    border-radius: 8px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .coh_container h1 {
+        margin: 100px 20px;
+    }
+}
+
+.res {
+    margin: 15px auto;
+    border: 2px solid;
+    width: 100px;
+    border-radius: 10px;
+    padding: 5px;
+    background: blue;
+    font-size: 20px;
+}
+.res:hover {
+    font-size: 22px;
+}
+
+@media screen and (max-width: 700px) {
+    .slovo {
+        font-size: 26px;
+    }
+    .coh_form {
+        display: flex;
+    }
+    .coh_form input {
+        height: 35px;
+        margin: 5px auto;
+    }
+    .coh_form button {
+        height: 33px;
+        margin: 5px auto;
+    }
+    .coh_progress {
+        margin-top: 0;
+    }
+    .coh_progress_history {
+        margin: 0 auto;
+        min-height: 20px;
+    }
+    .res {
+        margin: 4px auto;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .slovo {
+        font-size: 40px;
+    }
+    .coh_form {
+        display: inline-grid;
+    }
+    .coh_form input {
+        height: 45px;
+        margin: 10px auto;
+    }
+    .coh_form button {
+        height: 40px;
+        margin: 10px auto;
+    }
+    .coh_progress {
+        margin-top: 30px;
+    }
+    .coh_progress_history {
+        margin: 10px auto;
+        min-height: 30px;
+    }
+    .res {
+        margin: 10px auto;
+    }
+}
